@@ -9,7 +9,6 @@ function Body() {
         const requestOptions = {
             method: 'POST',
             headers: { 
-                'Content-Type': 'application/json',
                 'Authorization': 'Basic ODQ1NjI4MzM6cHJvZHBhc3N3b3JkX1MwQ2lGMHhNUUowOG9oVVVFR282U3BZajZ2QUVxYWVkbFQ5aG1mV1JLVmtJbg=='
             },
             body: JSON.stringify({ 
